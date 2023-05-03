@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(
+    to bottom,
+    rgb(188, 252, 255),
+    rgb(59, 157, 162),
+    rgb(23, 100, 102)
+  );
+  font-family: "Open Sans", sans-serif;
+}
+
+.container {
+  width: 380px;
+  background-color: inherit;
+  border-radius: 5px;
+  margin: 10px 0px 10px 0px;
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.1),
+    rgba(255, 255, 255, 0)
+  );
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  padding: 50px 20px 50px 20px;
+}
+
+/* foto profil */
+.foto-profil {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 50px;
+  color: #fff;
+}
+
+.foto-profil img {
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
+  object-position: cover;
+  border: 0.3px solid #33aed0;
+}
+
+.foto-profil h1 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 30px;
+}
+
+.foto-profil p {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+/* button project */
+.button-project button {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 10px 0px 10px 0px;
+  justify-content: center;
+  align-items: center;
+  padding: 24px 40px;
+  border-radius: 5px;
+  color: #fff;
+  background-color: #0e7490;
+  border: none;
+  transition: transform 0.2s ease;
+}
+
+.button-project button:hover {
+  transform: translateY(-5px);
+}
+
+/* button medsos */
+.button-medsos {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+.button-medsos a button {
+  width: 60px;
+  height: 60px;
+  border-radius: 100%;
+  background-color: #164e63;
+  border: 1px solid #337b93;
+  transition: transform 0.2s ease;
+}
+
+.button-medsos button:hover {
+  transform: translateY(-5px);
+}
