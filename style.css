@@ -79,6 +79,10 @@ body {
   transition: transform 0.2s ease;
 }
 
+.button-project a {
+  text-decoration: none;
+}
+
 .button-project button:hover {
   transform: translateY(-5px);
 }
